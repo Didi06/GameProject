@@ -1,0 +1,164 @@
+/* * {
+    border: solid 1px black;
+} */
+
+.topHeader {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 42%;
+    font-size: 30px
+}
+
+body {
+    background-image: url("https://www.joann.com/on/demandware.static/-/Sites-joann-product-catalog/default/dw095e8a71/images/hi-res/13/13134853.jpg");
+}
+
+.labelSize {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.textLarge {
+    background-color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 19px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+/* .newHeroMargin {
+    margin-right: 400px;
+} */
+
+/* Heroes */
+
+.nameCenter {
+    text-align: center;
+}
+
+.imageCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    margin-bottom: 3px;
+}
+
+.imageSize {
+    height: 95px;
+}
+
+.marginTopAndBottom {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.heroStats {
+    padding-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#heroName {
+    font-size: 30px;
+}
+
+.abilities {
+    margin-left: 45px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.abilityName {
+    display: inline;
+    font-size: 35px;
+}
+
+.abilityInfo {
+    margin-left: 35px;
+    margin-bottom: 5px;
+    padding-left: 3px;
+}
+
+.goldMargin {
+    margin-bottom: 5px;
+}
+
+.heroDiv {
+    border: solid 1px black;
+    margin-bottom: 3px;
+}
+
+.abilitiesDiv {
+    border: solid 1px black;
+}
+
+.statsDiv {
+    border: solid 1px black;
+}
+
+/* Monsters */
+
+.monsterIcon {
+    height: 82px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.monsterIconSize {
+    width: 78px;
+}
+
+.villainDiv {
+    border: solid 1px black;
+    margin-top: 3px;
+    margin-bottom: -55px;
+}
+
+#villainName {
+    font-size: 30px;
+}
+
+.villainStatsDiv {
+    border: solid 1px black;
+}
+
+/* Store */
+
+#shopHeader {
+    text-align: center;
+    color: lightcyan;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 40px;
+}
+
+.storeCenter {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.itemInfo {
+    margin-bottom: 3px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.itemIcon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#itemName {
+    font-size: 30px;
+}
+
+.storeDiv {
+    border: solid 1px black;
+    margin-top: 3px;
+}
