@@ -42,7 +42,7 @@ class Container extends React.Component {
                         {
                             image: WarriorSword,
                             name: "Warrior's Sword",
-                            damage: 200,
+                            damage: 15,
                             mana: 0
                         },
                         {
@@ -276,7 +276,7 @@ class Container extends React.Component {
     }
 
     // code for hero attacking the villain
-    heroAttackvillain(index) {
+    heroAttackVillain(index) {
 
         if (this.state.currentVillain[0] != null) {
 
@@ -389,7 +389,7 @@ class Container extends React.Component {
 
                 <Heroes toggleHidden={this.toggleHidden.bind(this)}
                     removeHero={this.removeHero.bind(this)}
-                    heroAttackvillain={this.heroAttackvillain.bind(this)}
+                    heroAttackVillain={this.heroAttackVillain.bind(this)}
                     villainAttackHero={this.villainAttackHero.bind(this)}
                     heroes={this.state.heroes} />
                 {this.state.isHidden && this.state.currentVillain[0] != null && <Villains

@@ -24,10 +24,10 @@ class Heroes extends React.Component {
                                 </div>
                                 {hero.abilities.map((ability, index) => { //code for our hero abilities 
                                     return (
-                                        <div className="abilitiesDiv">
-                                            <img onClick={() => this.props.heroAttackMonster(index)} className="abilities" src={ability.image} key={index} />
-                                            <p class="abilityName"> <span className="badge badge-danger labelSize"> {ability.name} </span> </p>
-                                            <p class="abilityInfo"> <span className="badge badge-info labelSize"> Damage: </span> <span className="textLarge"> {ability.damage} </span> <span className="badge badge-secondary labelSize"> Mana cost: </span> <span className="textLarge"> {ability.mana} </span> </p>
+                                        <div className="abilitiesDiv" key={index}>
+                                            <img onClick={() => this.props.heroAttackVillain(index)} className="abilities" src={ability.image} key={index} />
+                                            <p className="abilityName"> <span className="badge badge-danger labelSize"> {ability.name} </span> </p>
+                                            <p className="abilityInfo"> <span className="badge badge-info labelSize"> Damage: </span> <span className="textLarge"> {ability.damage} </span> <span className="badge badge-secondary labelSize"> Mana cost: </span> <span className="textLarge"> {ability.mana} </span> </p>
                                         </div>
                                     )
                                 })}
